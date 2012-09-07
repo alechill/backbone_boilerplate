@@ -7,7 +7,7 @@ define([
     url: 'fixtures/home.json',
 
     defaults: {
-      oi: 'Oi!'
+      name: 'Mr Majeeka'
     } 
 
   });

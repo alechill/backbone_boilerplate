@@ -28,6 +28,13 @@ define([], function() {
         exports: 'Cufon'
       }
     }
+    // test other locales easily...
+    /*
+    ,config: {
+      i18n: {
+        locale: 'fr-fr'
+      }
+    }*/
   });
 
   require(['config/config', 'libs/backbone', 'utils/console'], function(config){

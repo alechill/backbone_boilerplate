@@ -1,5 +1,4 @@
 define({
-  
-  'helloworld': 'Hello world!'
-
+  "hey": "Hey",
+  "it_bloody_works": "It bloody works!"
 });
