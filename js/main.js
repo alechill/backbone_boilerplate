@@ -17,6 +17,9 @@ define([], function() {
       'libs/handlebars': {
         exports: 'Handlebars'
       },
+      'libs/modernizr': {
+        exports: 'Modernizr'
+      },
       'fonts/cufon': {
         exports: 'Cufon'
       },
@@ -27,12 +30,11 @@ define([], function() {
     }
   });
 
-  require(['config/config', 'libs/backbone'], function(config){
+  require(['config/config', 'libs/backbone', 'utils/console'], function(config){
 
     document.title = config.appTitle;
 
-
-    require(['libs/backbone', 'application/App', 'fonts/fonts', 'domReady!'], function(Backbone, App, fonts){
+    require(['libs/backbone', 'application/App', 'fonts/fonts', 'domReady!', 'libs/modernizr'], function(Backbone, App, fonts){
 
       fonts.update();
 

@@ -1,5 +1,5 @@
 define({
   
-  appTitle: 'Crowd Advisor'
+  appTitle: 'My App'
 
 });

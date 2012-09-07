@@ -3,7 +3,7 @@ define([
   'controllers/HomeController'
 ], function(Backbone, HomeController) {
 
-  var App = Backbone.Router.extend({
+  var Application = Backbone.Router.extend({
 
     routes: {
       '*actions': 'notFound'
@@ -24,13 +24,16 @@ define([
     },
 
     notFound: function() {
-      this.navigate('home', {trigger: true});
-      //this.controllers.home.show();
-      console.warn('route not found');
+      console.warn('Route not found - redirecting to default');
+      this.redirect('home');
+    },
+
+    redirect: function(route) {
+      this.navigate(route, {trigger: true});
     }
 
   });
 
-  return App;
+  return Application;
 
 });
