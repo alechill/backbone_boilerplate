@@ -1,0 +1,5 @@
+define({
+  
+  appTitle: 'Crowd Advisor'
+
+});
