@@ -1,8 +1,9 @@
 ({
     baseUrl: "../dist/js",
     name: "main",
-    out: "main-built.js",
+    out: "../dist/js/main-built.js",
     paths: {
-      jquery: "empty:"
+      jquery: '../dist/js/libs/jquery',
+      templates: '../dist/templates'
     }
 })
