@@ -18,6 +18,13 @@ require.config({
     'libs/modernizr': {
       exports: 'Modernizr'
     },
+    'libs/modernizr': {
+      exports: 'Modernizr'
+    },
+    'libs/bootstrap': {
+      deps: ['jquery'],
+      exports: 'jQuery.fn.modal'
+    },
     'fonts/cufon': {
       exports: 'Cufon'
     },
@@ -35,8 +42,8 @@ require.config({
   }*/
 });
 
-define(['bootstrap'], function(Bootstrap) {
+define(['launch'], function(Launch) {
 
-  Bootstrap.initialize();
+  Launch.initialize();
     
 });

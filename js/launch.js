@@ -1,6 +1,15 @@
-define(['config/config', 'libs/underscore', 'libs/backbone', 'application/App', 'fonts/fonts', 'domReady!', 'libs/modernizr'], function(config, _, Backbone, App, fonts){
+define([
+  'config/config', 
+  'libs/underscore', 
+  'libs/backbone', 
+  'application/App', 
+  'fonts/fonts', 
+  'domReady!', 
+  'libs/modernizr', 
+  'libs/bootstrap'
+], function(config, _, Backbone, App, fonts){
 
-  var Bootstrap = {
+  var Launch = {
 
     initialize: function() {
       document.title = config.appTitle;
@@ -13,7 +22,6 @@ define(['config/config', 'libs/underscore', 'libs/backbone', 'application/App', 
 
   };
 
-  //Bootstrap.initialize();
-  return Bootstrap;
+  return Launch;
   
 });
