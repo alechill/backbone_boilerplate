@@ -1,4 +1,4 @@
 define({
-  "hey": "Bonjour",
-  "it_bloody_works": "Il fonctionne!"
+  "hey": "Bonjour {{name}}!..",
+  "it.bloody.works": "Il fonctionne!"
 });

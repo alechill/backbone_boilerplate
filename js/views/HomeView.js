@@ -2,7 +2,7 @@ define([
   'jquery',
   'libs/underscore',
   'libs/backbone',
-  'libs/handlebars',
+  'utils/handlebars',
   'text!templates/home.html',
   'i18n!nls/lang',
   'fonts/fonts'

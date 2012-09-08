@@ -1,5 +1,6 @@
 define({
   
-  appTitle: 'My App'
+  appTitle: 'My App',
+  appName: 'myApp'
 
 });
